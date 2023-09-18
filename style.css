@@ -1,0 +1,219 @@
+body{
+    background-color: black !important;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        z-index: -1;
+}
+
+/******   NABBAR  SECTION ****/
+
+
+.menue-button{
+    background-color: rgb(223, 21 ,186);
+    width: 50px;
+}
+.section-nav{
+    position: fixed;
+    top: 0;
+    background-color: black !important;
+}
+.logo-photo{
+    width: 120px;
+    height: 80px;
+}
+.nav-item:hover{
+    border-bottom: 1.5px solid rgba(240, 54, 221, 0.733);
+}
+.container-fluid{
+    margin-top: 80px !important;
+}
+
+/******   HERO   SECTION ****/
+
+
+
+.hero-heading{
+    font-size: 90px;
+    /* background-image: linear-gradient(45deg, #d3cb73, #fff833d8, #d3e178); Gradient colors */
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; */
+    color: #d3cb73;
+    line-height: 1;
+    margin-top: 30px !important;
+}
+.secondary-heading{
+    color: #d3cb73;
+}
+/* .text-section{
+    
+} */
+.fa-circle-play{
+    color: rgb(223, 21, 186);
+    font-size: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+.hero-paragraph{
+    margin: auto 0px;
+}
+.icon-section{
+    cursor:  pointer !important;
+}
+.icon-section:hover .fa-circle-play{
+    text-shadow: 2px 1px 1px rgb(223, 21, 186);
+    color: rgb(41, 37, 37) !important; 
+}
+
+
+
+/******   ABOUT   SECTION ****/
+
+
+.about-section{
+    margin-top: 100px;
+}
+.secondary-heading{
+    font-size: 70px !important;
+}
+.about-pic{
+    width: 90%;
+    height: auto;
+    box-shadow: 30px 30px   rgb(137, 93, 129,0.3);
+}
+.line-segment1{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(223, 21, 186); 
+}
+.line-segment2{
+    height: 50%;
+    width: 10%;
+    background-color: rgb(223, 21, 186); 
+}
+.line-container {
+    height: 10px; 
+}
+
+
+/******   NUMBER   SECTION ****/
+
+
+.number-section{
+    margin-top: 70px;
+}
+.number-color{
+    color: rgb(223, 21, 186);
+    font-size: 60px;
+}
+.experties-paragraph{
+    border-left: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/******   SERVICE  SECTION ****/
+
+.services-section{
+    margin-top: 60px;
+}
+
+.service-icon{
+    color: rgb(223, 21, 186);
+    font-size: 53px;
+}
+.service-div{
+    padding: 60px 40px !important;
+}
+.service-div:hover{
+    border: 8px solid rgb(223, 21, 186);
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.services-button:hover{
+    background-color: rgb(223, 21, 186);
+    color: black !important;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/******   CAROUSEL  SECTION ****/
+
+.featured-paragraph{
+    background-image: linear-gradient(to right,rgb(223, 21 ,186), rgb(223, 21 ,186));
+    margin-top: 20px;
+}
+.carouse-section{
+    margin-top: 50px !important;
+    gap: 50px !important;
+    align-items: center !important;
+    justify-content: center;
+}
+
+
+/******   CONTACT FORM  SECTION ****/
+
+
+.form-button{
+    background-color: rgb(223, 21 ,186);
+}
+.form-button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white !important;
+}
+.arrow-section{
+    width: 30px;
+    height: auto;
+    margin-top: 100px;
+    background-color: rgb(223, 21 ,186);
+    box-shadow: 10px 10px   rgba(227, 123, 208, 0.3);
+}
+
+
+/******   FOOTER  SECTION ****/
+
+.social-icon-section{
+    justify-content: center;
+    align-items: center !important;
+    margin-bottom: 20px;
+}
+.social-icon{
+    background-color: black !important;
+    border: none;
+}
+.social-icon:hover{
+    border-bottom: 5px solid rgb(223, 21 ,186);
+}
+.social-icon:hover a .fa-brands{
+    color: rgb(223, 21 ,186) !important;
+}
+
+
+/******   ALERT SECTION ****/
+
+
+div.fixed{
+    background-color:rgb(63, 63, 240);
+    position: fixed;
+    bottom: 0;
+}
+
+.alert-button{
+    background-color: rgb(63, 63, 240);
+    border: 1px solid white !important;
+    color: white;
+    border-radius: 10px;
+}
+.alert-button:hover{
+    color: #d3cb73;
+    border: 1px solid #d3cb73;
+}
